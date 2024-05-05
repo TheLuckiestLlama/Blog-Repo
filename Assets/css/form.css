@@ -12,4 +12,7 @@
 
 .textBox{
     /* Figure out how to style the text box. */
+    font-size: large;
+    display: flex;
+    justify-content: end;
 }
