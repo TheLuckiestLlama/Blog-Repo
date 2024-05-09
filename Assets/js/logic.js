@@ -11,13 +11,13 @@ themeSwitcher.addEventListener('click', function(){
     if (mode === `dark`){
         mode = `light`
         container.setAttribute('class', 'lightMode');
-        logo.setAttribute('class', 'LogoLight');
         themeSwitcher.setAttribute('class', 'themeSwitchLight');
+        logo.setAttribute('class', 'LogoLight');
     } else {
         mode = `dark`
         container.setAttribute('class', 'darkMode');
-        logo.setAttribute('class', 'LogoDark');
         themeSwitcher.setAttribute('class', 'themeSwitchDark');
+        logo.setAttribute('class', 'LogoDark');
     }
 
 
